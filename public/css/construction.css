@@ -1,0 +1,33 @@
+body {
+    background-color: #49B867;
+    color: #E0E0E0;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: underline;
+}
+
+#welcome-msg {
+    font-weight: 300;
+    font-size: 5em;
+}
+
+#construction-msg {
+    font-family: 'Slabo 27', serif;
+    font-size: 1.3em;
+}
+
+#movie-recommendation {
+    font-weight: 600;
+    font-size: 2em;
+    color: #F5F5F5
+}
+
+.text-box{
+    margin-top:17em;
+}
+
+
+
