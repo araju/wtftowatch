@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "angular-phonecat",
   "description": "A starter project for AngularJS",
   "version": "0.0.0",
@@ -12,5 +13,17 @@
     "bootstrap": "~3.1.1",
     "angular-route": "1.3.x",
     "angular-resource": "1.3.x"
+=======
+  "name": "angular-seed",
+  "description": "A starter project for Angular and Node JS",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.3.0",
+    "angular-mocks": "~1.3.0",
+    "bootstrap": "~3.1.1",
+    "angular-route": "~1.3.0",
+    "angular-resource": "~1.3.0"
+>>>>>>> 28f7b4d38be74ac5860a86916126622e58062618
   }
 }
