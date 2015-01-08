@@ -5,7 +5,7 @@ moviecatControllers.controller('MovieDetailCtrl',['$scope','$routeParams','Movie
 		
 	}]);
 	
-moviecatControllers.controller('PhoneListCtrl', ['$scope','Movie',
+moviecatControllers.controller('MovieListCtrl', ['$scope','Movie',
 	function($scope, Movie) {
 		$scope.movies = Movie.query();
 		$scope.image= 'Image';
