@@ -4,6 +4,8 @@ var port = process.env.PORT || 3000,
     db = require("./db/movie-db");
     index = fs.readFileSync("public/index.html");
     indexcss = fs.readFileSync("public/css/construction.css");
+	
+var moviecatApp = angular.module('movieApp',['ngRoute','moviecatServices'])
 
 var server = http.createServer(function (req, res) {
     console.log('url: ' + req.url);
